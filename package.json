@@ -9,19 +9,34 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@langchain/community": "^0.3.57",
+    "@tanstack/react-query": "^5.90.2",
+    "ai": "^5.0.60",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.6",
+    "gray-matter": "^4.0.3",
+    "isomorphic-git": "^1.34.0",
+    "next": "15.5.4",
+    "next-auth": "^4.24.11",
+    "pg": "^8.16.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.5.4"
+    "sharp": "^0.34.4",
+    "zod": "^4.1.12",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pg": "^8.15.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "drizzle-kit": "^0.31.5",
     "eslint": "^9",
     "eslint-config-next": "15.5.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "tsx": "^4.20.6",
+    "typescript": "^5"
   }
 }
